@@ -1,0 +1,7 @@
+[tool.ruff]
+line-length = 79
+select = ["E", "F", "I", "X999"]  # X999 is not a valid rule
+ignore = ["E5011"]  # E5011 is not a valid code
+
+[tool.ruff.badsection]
+enabled = true
